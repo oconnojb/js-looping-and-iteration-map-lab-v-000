@@ -2,5 +2,5 @@
 function lowerCaseDrivers(col) {
   col.map(function (dr) {
     return dr.toLowerCase();
-})
+  })
 }
