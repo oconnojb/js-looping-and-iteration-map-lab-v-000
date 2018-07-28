@@ -7,11 +7,11 @@ function lowerCaseDrivers(col) {
 }
 
 function nameToAttributes(col) {
-  return col.map(function (dr) {
+  const newCol = col.map(function (dr) {
     let drArr = dr.split(' ');
     return {firstName: drArr[0], lastName: drArr[1]}
   })
-  //return newCol;
+  return newCol;
 }
 
 function attributesToPhrase(col) {
