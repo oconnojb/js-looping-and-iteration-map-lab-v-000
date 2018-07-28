@@ -15,5 +15,5 @@ function nameToAttributes(col) {
 }
 
 function attributesToPhrase(col) {
-  const newCol
+  const new
 }
