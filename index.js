@@ -1,6 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(col) {
-  col.map(function (dr) {
+  const newCol = col.map(function (dr) {
     return dr.toLowerCase();
   })
+  return newCol;
 }
