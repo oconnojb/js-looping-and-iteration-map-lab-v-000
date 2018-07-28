@@ -7,7 +7,8 @@ function lowerCaseDrivers(col) {
 }
 
 function nameToAttributes(col) {
-  const newCol = col.map(function (dr) {
+  var newCol = []
+  newCol = col.map(function (dr) {
     var drArr = dr.split(" ")
     var newObj = {firstName: drArr[0], lastName: drArr[1]};
     newCol.push(newObj);
