@@ -11,7 +11,9 @@ function nameToAttributes(col) {
     return {firstName: drArr[0], lastName: drArr[1]}
   })
 }
-
+//{ name: 'Bobby',   hometown: 'Pittsburgh'  }
 function attributesToPhrase(col) {
-
+  return col.map(function (dr) {
+    return dr['name'] + ' is from ' + dr['hometown'];
+  })
 }
